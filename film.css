@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.full{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(231, 231, 231);
+}
+.top{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bot{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.space{
+    width: 90%;
+    height: 6vh;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lop{
+    width: 25%;
+    height: 6vh;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+     border-radius: 15px;
+     background-color: rgb(110, 110, 110);
+     color: white;
+}
+.nolop{
+    width: 35%;
+    height: 6vh;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+     background-color: rgb(110, 110, 110);
+     color: white;
+}
+.lop:hover{
+    color: rgb(44, 44, 44);
+    background-color: rgb(8, 203, 27);
+}
+.nolop:hover{
+    color: rgb(44, 44, 44);
+    background-color: rgb(189, 27, 27);
+}
+.top img{
+    width: 90%;
+    height: 75vh;
+    border-radius: 10px;
+}
+
+
+.atas{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teks{
+    width: 96%;
+    height: 8vh;
+}
+.inside{
+    width: 40%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inside h3{
+    font-size: 25px;
+    color: rgb(47, 47, 47);
+}
+
+
+.bawah{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kiri{
+    width: 35%;
+    height: 92vh;
+  
+}
+.tengah{
+    width: 35%;
+    height: 92vh;
+  
+    display: flex;
+    justify-content: center;
+}
+.spasi{
+    width: 87%;
+    height: 92vh;
+
+
+}
+.jdl{
+    width: 100%;
+    height: 10vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.mid{
+    width: 100%;
+    height: 15vh;
+  
+    display: flex;
+    align-items: center;
+  
+}
+.dlm{
+    width: 100%;
+    height: 8vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tn{
+    width: 50%;
+    height: 8vh;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(152, 27, 27);
+}
+.dw{
+    width: 50%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sip{
+    width: 100%;
+    height: 62vh;
+    
+}
+.lam{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.da{
+    width: 100%;
+    height: 56vh;
+    background-color: rgb(246, 246, 246);
+    border-radius: 10px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sid{
+    width: 95%;
+    height: 53vh;
+}
+.sid p{
+    font-size: 20px;
+}
+.kanan{
+    width: 35%;
+    height: 92vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pil{
+    width: 90%;
+    height: 85vh;
+    background-color: rgb(143, 17, 17);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ij{
+    width: 90%;
+    height: 80vh;
+   
+}
+.nama{
+    width: 100%;
+    height: 4.5vh;
+   
+    font-size: 20px;
+   
+}
+.nama p{
+    margin-left: 145px;
+}
+.ihh{
+    width: 100%;
+    height: 13vh;
+   
+}
+.ihh select{
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    text-justify: center;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(206, 206, 206);
+}
+.har{
+    width: 100%;
+    height: 12vh;
+   
+}
+.har p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.front{
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.front p{
+    font-size: 20px;
+}
+.jumkit{
+    width: 100%;
+    height: 12vh;
+  
+   
+}
+.jumkit p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.jumkit input{
+    padding: 13px;
+    width: 92%;
+    text-align: center;
+    text-justify: center;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(206, 206, 206);
+    border: none;
+}
+.jumba{
+    width: 100%;
+    height: 25vh;
+  
+}
+.jumba p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.front2{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.front2 p{
+    font-size: 20px;
+}
+.bay{
+    width: 100%;
+    height: 15vh;
+  
+}
+.bay button{
+    padding: 13px;
+    width: 100%;
+    text-align: center;
+    text-justify: center;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(206, 206, 206);
+    border: none;
+}
+@media (max-width: 667px){
+    .full{
+    width: 100%;
+    height: 273vh;
+    }
+    .inside h3{
+        font-size: 20px;
+    }
+    .inside{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+       
+        justify-content: space-around;
+    }
+   .bawah{
+    flex-wrap: wrap;
+   }
+   .kiri{
+    width: 100%;
+    height: 50vh;
+   }
+    .tengah{
+     width: 100%;
+     height: 50vh;
+     margin-top: 220px;
+    }
+    .kanan{
+     width: 100%;
+     height: 50vh;
+     margin-top: 400px;
+    }
+}

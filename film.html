@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan tiket</title>
+    <link rel="stylesheet" href="film.css">
+</head>
+<body>
+    <div class="full">
+        <div class="atas">
+            <div class="teks">
+                <div class="inside">
+                    <h4 style="font-size: 30px; color: rgb(189, 22, 22);">Theater</h4>
+                <h3>Tv Show</h3>
+                <h3>Movies</h3>
+                <h3>Videos</h3>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="bawah">
+            <div class="kiri">
+                <div class="top">
+                    <img src="img/pesan.png" alt="" id="img">
+                </div>
+                <div class="bot">
+                    <div class="space">
+                        <div class="lop">
+                            <h3>Suka</h3>
+                    </div>
+                    <div class="nolop">
+                            <h3>Tidak Suka</h3>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tengah">
+                <div class="spasi">
+                    <div class="jdl">
+                  
+                </div>
+                <div class="mid">
+                    <div class="dlm">
+                        <div class="tn">
+                            <h2>Tonton</h2>
+                        </div>
+                        <div class="dw">
+                            <h2>Download</h2>
+                       </div>
+                    </div>
+                    
+                </div>
+                <div class="sip">
+                    <div class="lam">
+                        <h3>Sipnosis</h3>
+                    </div>
+                    <div class="da">
+                        <div class="sid">
+                             <p id="sinopsis"></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="kanan">
+             <div class="pil">
+                
+                <div class="ij">
+                    <div class="nama">
+                        <p style="color: white;">Pilih film</p>
+                    </div>
+                       <div class="ihh">
+                        <select name="" id="film">
+            <option value="">      ∼--Pilih film--∼</option>
+            <option value="film1">deadpool</option>
+            <option value="film2">Silent Voice</option>
+            <option value="film3">Spiderman no way home</option>
+            <option value="film4">spiderman across the spider-verse</option>
+            <option value="film5">Demon slayer - the infinite castle</option>
+            <option value="film6">the promised neverland</option>
+            </select>
+                       </div>
+
+
+        
+
+
+        
+            
+            <div class="har">
+                <p style="color: white;">Harga :</p>
+                <div class="front">
+                    <p id="hargaa">0</p>
+                </div>
+            </div>
+            <div class="jumkit">
+                <p style="color: white;">jumlah tiket :</p>
+                
+                   <input type="number" id="j_tiket">
+                
+            </div>
+            
+           <div class="jumba">
+                <p style="color: white;">jumlah bayar :</p>
+                <div class="front2">
+                  <p><span id="bayar">0</span></p>
+                </div>
+            </div>
+             
+            <div class="bay">
+                <button onclick="hitung()">hitung</button>
+            </div>
+        <script>
+            let selectelement = document.getElementById('film')
+            let ImgElement = document.getElementById('img')
+          
+            selectelement.addEventListener('change', function(){
+                let selectvalue = selectelement.value;
+
+
+                if(selectvalue === 'film1'){
+                    ImgElement.src = 'img/deadpool.png'
+                    hargaa = 65000;
+                    sinopsis = 'A wisecracking mercenary gets experimented on and becomes immortal yet hideously scarred, and sets out to track down the man who ruined his looks.'
+                }
+                if(selectvalue === 'film2'){
+                    ImgElement.src = 'img/silentvoice.png'
+                    hargaa = 55000;
+                    sinopsis = '"A Silent Voice" is a poignant animated film that explores themes of bullying, redemption, and the complexities of human connection through the story of a deaf girl and her former bully.'
+                }
+                if(selectvalue === 'film3'){
+                    ImgElement.src = 'img/spiderman.png'
+                    hargaa = 80000;
+                    sinopsis = 'After Quentin Beck (Jake Gyllenhaal) frames Peter Parker (Tom Holland) for murder and reveals his identity as Spider-Man, Parker, his girlfriend Michelle "MJ" Jones-Watson (Zendaya), best friend Ned Leeds (Jacob Batalon), and Aunt May (Marisa Tomei) are interrogated by the Department of Damage Control.'
+                }
+                if(selectvalue === 'film4'){
+                    ImgElement.src = 'img/verse.png'
+                    hargaa = 75000;
+                    sinopsis = 'In "Spider-Man: Across the Spider-Verse," Miles Morales embarks on an epic journey across the multiverse, teaming up with Gwen Stacy to tackle a new threat. The film introduces a diverse group of Spider-People from various dimensions, including Miguel OHara / Spider-Man 2099, who leads a team known as the Spider-Society. The narrative delves into the complexities of identity and responsibility, with Miles finding himself at a crossroads as he navigates the challenges posed by the Spot, a new threat that tests the resolve of the heroes.'
+                }
+                if(selectvalue === 'film5'){
+                    ImgElement.src = 'img/kny.png'
+                    hargaa = 85000
+                    sinopsis = 'Film ini merupakan bagian pertama dari trilogi penutup kisah "Demon Slayer" yang diadaptasi dari arc Infinity Castle dalam manga karya Koyoharu Gotouge. Dalam film ini, Tanjiro Kamado, seorang remaja yang keluarganya dibantai oleh iblis, berjuang untuk melindungi adiknya, Nezuko, yang telah berubah menjadi iblis. Untuk itu, Tanjiro bergabung dengan Demon Slayer Corps, sebuah organisasi yang bertugas membasmi iblis.'
+                }
+                if(selectvalue === 'film6'){
+                    ImgElement.src = 'img/neverland.png'
+                    hargaa = 45000
+                    sinopsis = '"The Promised Neverland" anime follows the story of Emma, an 11-year-old orphan living in Grace Field House, a small orphanage housing her and her 37 siblings. The orphans are allowed to do whatever they want, except to venture out of the compounds or the gate that connects the house to the outside world. On a fateful night, another orphan named Conny is sent away to be adopted, Sneaking out, they find Conny dead and the truth of the existence of this supposed orphanage to be a farm where human children are raised as food for demonic creatures.'
+                }
+                const format = hargaa.toLocaleString('id-ID');
+                document.getElementById('hargaa').textContent = `Rp${format}`;
+                document.getElementById('sinopsis').textContent = sinopsis;
+                
+            });
+            function hitung(){
+                let j_tiket = parseFloat(document.getElementById('j_tiket').value);
+                
+                let bayar = hargaa * j_tiket
+                const format = bayar.toLocaleString('id-ID');
+                document.getElementById('bayar').textContent = `Rp${format}`;
+            }
+        </script>
+                </div>
+             </div>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>
+
+
+

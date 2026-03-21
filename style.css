@@ -1,0 +1,1064 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+   
+}
+.navbar{
+    width: 100%;
+    height: 8vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.837);
+    box-shadow: 0px 0px 10px 0px;
+   
+}
+.isi{
+    width: 70%;
+    height: 6vh;
+  
+    display: flex;
+justify-content: center;
+} 
+.kiri{
+    width: 40%;
+    height: 6vh;
+ 
+    display: flex;
+    align-items: center;
+}
+.kanan{
+    width: 60%;
+    height: 6vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.bawah{
+    width: 100%;
+    height: 96vh;
+    background-color: white;
+    
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tengah{
+    width: 60%;
+    height: 40vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kiri1{
+    width: 60%;
+    height: 40vh;
+  
+}
+.kanan1{
+    width: 40%;
+    height: 40vh;
+
+}
+.kanan1 img{
+    width: 100%;
+    height: 40vh;
+}
+.satu{
+    width: 100%;
+    height: 7vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dua{
+    width: 100%;
+    height: 20vh;
+   
+}
+.dua h1{
+    font-size: 37px;
+    margin-top: 20px;
+}
+.dua p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.tiga{
+    width: 100%;
+    height: 13vh;
+    
+    justify-content: start;
+    display: flex;
+    align-items: center;
+}
+.in{
+    width: 62%;
+    height: 6.6vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ichi{
+    width: 47%;
+    height: 6.6vh;
+    background-image: linear-gradient(to bottom right, rgb(33, 102, 221), rgb(96, 68, 207), rgb(145, 11, 228));
+    border-radius: 7px;
+    color: white;
+    display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+.ni{
+    width: 47%;
+    height: 6.6vh;
+    border: 2px solid rgb(125, 93, 219);
+    border-radius: 7px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+
+.body1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside{
+    width: 80%;
+    height: 65vh;
+   
+}
+
+.bodyONE{
+    width: 80%;
+    height:65vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uno{
+    width: 55%;
+    height: 65vh;
+
+   
+}
+.uno img{
+    width: 100%;
+    height: 65vh;
+}
+.dos{
+    width: 44%;
+    height: 55vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: end;
+   
+}
+.border{
+    width: 95%;
+    height: 55vh;
+}
+.tres{
+    width: 100%;
+    height: 15vh;
+
+    font-size: 18px;
+}
+.quardo{
+    width: 100%;
+    height: 27vh;
+  
+    color: rgb(109, 109, 109);
+}
+.sinkro{    
+    width: 100%;
+    height: 13vh;
+
+    display: flex;
+    align-items: center;
+   
+}
+.but{
+    width: 40%;
+    height: 6vh;
+    background-image: linear-gradient(to bottom right, rgb(57, 119, 227), rgb(110, 87, 201), rgb(159, 77, 210));
+    box-shadow: 0px 0px 5px 0px rgb(151, 9, 217);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.body2{
+    width: 100%;
+height: 100vh;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.san{
+    width: 70%;
+    height: 60vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.i{
+    width: 55%;
+    height: 58vh;
+    
+}
+.er{
+    width: 45%;
+    height: 60vh;
+  
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.SATU{
+    width: 90%;
+    height: 19.3vh;
+
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.ONE{
+    width: 32%;
+    height: 15vh;
+border: 1px solid rgba(0, 0, 0, 0.432);
+}
+.TWO{
+    width: 32%;
+   height: 15vh;
+border: 1px solid rgba(0, 0, 0, 0.432);
+}
+.THREE{
+    width: 32%;
+    height: 15vh;
+border: 1px solid rgba(0, 0, 0, 0.432);}
+.DUA{
+    width: 90%;
+    height: 19.3vh;
+  
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.four{
+    width: 32%;
+    height: 15vh;
+border: 1px solid rgba(0, 0, 0, 0.432);}
+.five{
+    width: 32%;
+    height: 15vh;
+border: 1px solid rgba(0, 0, 0, 0.432);}
+.six{
+    width: 32%;
+    height: 15vh;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+}
+.TIGA{
+    width: 90%;
+    height: 19.3vh;
+  
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.seven{
+    width: 32%;
+    height: 15vh;
+   border: 1px solid rgba(0, 0, 0, 0.432);
+}
+.eight{
+    width: 32%;
+    height: 15vh;
+   border: 1px solid rgba(0, 0, 0, 0.432);
+}
+.nine{
+    width: 32%;
+    height: 15vh;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+}
+.ONE , .TWO, .THREE, .four, .five, .six, .seven, .eight, .nine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.se{
+    width: 80%;
+    height: 60vh;
+   
+   
+   
+   
+}
+.atas{
+    width: 100%;
+    height: 25vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.l{
+    width: 40%;
+    height: 20vh;
+
+    color: rgb(234, 27, 192);
+    font-size: 40px;
+     display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.r{
+    width: 60%;
+    height: 20vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tenga{
+    width: 100%;
+    height: 10vh;
+}
+.bawa{
+    width: 100%;
+    height: 25vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body3{
+    width: 100%;
+    height: 100vh;
+    
+}
+.alpha{
+    width: 100%;
+    height: 35vh;
+   
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+.beta{
+    width: 45%;
+    height: 20vh;
+   
+}
+.kagami{
+    width: 100%;
+    height: 9vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kuroko{
+    width: 100%;
+    height: 11vh;
+    
+    text-align: center;
+    color: rgba(66, 66, 66, 0.729);
+}
+.omega{
+    width: 100%;
+    height: 65vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mid-beta{
+     width: 70%;
+ height: 40vh;
+ 
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.kise{
+    width: 23.5%;
+    height: 40vh;
+    background-color: rgba(218, 192, 238, 0.164);
+    border-radius: 5px;
+        transition: 0.3s;
+}
+.kise:hover{
+    margin-top: -20px;
+   
+
+}
+.logo1{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.logo1 img{
+    width: 35%;
+    margin-top: 30px;
+}
+.kise-cchi{
+    width: 100%;
+    height: 22vh;
+    
+   
+}
+.ryota{
+    width: 23.5%;
+    height: 40vh;
+    background-color: rgba(218, 192, 238, 0.164);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.ryota:hover{
+    margin-top: -20px;
+   
+}
+
+.logo2{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo2 img{
+    width: 32%;
+    margin-top: 30px;
+}
+.ryota-cchi{
+    width: 100%;
+    height: 22vh;
+  
+}
+.aomine{
+    width: 23.5%;
+    height: 40vh;
+    background-color: rgba(218, 192, 238, 0.164);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.aomine:hover{
+    margin-top: -20px;
+   
+}
+.logo3{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo3 img{
+    width: 30%;
+    margin-top: 30px;
+}
+
+.aomine-cchi{
+    width: 100%;
+    height: 22vh;
+
+}
+.daiki{
+    width: 23.5%;
+    height: 40vh;
+    background-color: rgba(218, 192, 238, 0.164);
+   
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.daiki:hover{
+    margin-top: -20px;
+   
+}
+.logo4{
+    width: 100%;
+    height: 18vh;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo4 img{
+    width: 35%;
+    margin-top: 30px;
+
+}
+.daiki-cchi{
+    width: 100%;
+    height: 22vh;
+   
+}
+.galon{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bola{
+    width: 100%;
+    height: 15vh;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13.5px;
+}
+
+.bola p{
+    margin-bottom: 4px;
+}
+.body4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.eak4{
+    width: 70%;
+    height: 100vh;
+}
+.top4{
+    width: 100%;
+    height: 43vh;
+
+}
+.bot4{
+    width: 100%;
+    height: 57vh;
+    display: flex;
+    justify-content: space-between;
+}
+.blob{
+    width: 100%;
+    height: 33vh;
+
+}
+.blub{
+    width: 50%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+.one4{
+    width: 31%;
+    height: 57vh;
+
+}
+.two4{
+    width: 31%;
+    height: 57vh;
+}
+.three4{
+    width: 31%;
+    height: 57vh;
+}
+.foto{
+    width: 100%;
+    height: 30vh;
+    transition: 0.3s;
+}
+.foto img{
+    width: 100%;
+    height: 30vh;
+}
+
+
+
+.name{
+    width: 100%;
+    height: 10vh;
+}
+.name a{
+    color: black;
+}
+.foto1{
+    width: 100%;
+    height: 35vh;
+    transition: 0.3s;
+}
+.foto1 img{
+    width: 100%;
+    height: 35vh;
+}
+.name1{
+    width: 100%;
+    height: 10vh;
+}
+.name1 a{
+    color: black;
+}
+.foto2{
+    width: 100%;
+    height: 40vh;
+
+    transition: 0.3s;
+}
+.foto2 img{
+    width: 100%;
+    height: 40vh;
+}
+.name2{
+    width: 100%;
+    height: 10vh;
+}
+.name2 a{
+    color: black;
+}
+.body5{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  
+    justify-content: center;
+}
+.eak5{
+    width: 70%;
+    height: 100vh;
+    border: 2px solid green;
+}
+.kop{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jop{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.one5{
+    height: 45vh;
+    width: 31%;
+    border: 2px solid red;
+}
+.foto3{
+    width: 100%;
+    height: 35vh;
+
+    border: 2px solid green;
+    transition: 0.3s;
+}
+.fot3:hover{
+    background-color: rgba(225, 16, 225, 0.406);
+}
+.name3{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid hotpink;
+}
+.two5{
+    height: 40vh;
+    width: 31%;
+    border: 2px solid red;
+}
+.foto4{
+    width: 100%;
+    height: 30vh;
+
+
+    border: 2px solid green;
+    transition: 0.3s;
+}
+.foto4:hover{
+    background-color: rgba(225, 16, 225, 0.406);
+}
+.name4{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid hotpink;
+}
+.three5{
+    height: 45vh;
+    width: 31%;
+    border: 2px solid red;
+}
+.foto5{
+    width: 100%;
+    height: 35vh;
+    border: 2px solid green;
+    transition: 0.3s;
+}
+.name5{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid hotpink;
+}
+.one6{
+    height: 50vh;
+    width: 31%;
+    border: 2px solid red;
+}
+.foto6{
+    width: 100%;
+    height: 40vh;
+    border: 2px solid green;
+    transition: 0.3s;
+}
+.name6{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid hotpink;
+}
+.two6{
+    height: 45vh;
+    width: 31%;
+    border: 2px solid red;
+}
+.foto7{
+    width: 100%;
+    height: 35vh;
+    border: 2px solid green;
+    transition: 0.3s;
+}
+.name7{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid hotpink;
+}
+.three6{
+    height: 40vh;
+    width: 31%;
+    border: 2px solid red;
+}
+.foto8{
+    width: 100%;
+    height: 30vh;
+    border: 2px solid green;
+    transition: 0.3s;
+}
+.name8{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid hotpink;
+}
+.body-lima{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eak9{
+    width: 70%;
+}
+.kop{
+    width: 100%;
+    height: 50vh;
+    border: 2px solid rgb(80, 113, 214);
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.one7{
+    height: 40vh;
+    width: 31%;
+    border: 2px solid red;
+}
+.foto9{
+    width: 100%;
+    height: 30vh;
+
+
+    border: 2px solid green;
+    transition: 0.3s;
+}
+.foto9:hover{
+    background-color: rgba(225, 16, 225, 0.406);
+}
+.name9{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid hotpink;
+}
+.two7{
+    height: 45vh;
+    width: 31%;
+    border: 2px solid red;
+}
+.foto10{
+    width: 100%;
+    height: 35vh;
+
+
+
+
+    border: 2px solid green;
+    transition: 0.3s;
+}
+.foto10:hover{
+    background-color: rgba(225, 16, 225, 0.406);
+}
+.name9{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid hotpink;
+}
+.three7{
+    height: 42vh;
+    width: 31%;
+    border: 2px solid red;
+}
+.foto11{
+    width: 100%;
+    height: 32vh;
+
+
+
+
+    border: 2px solid green;
+    transition: 0.3s;
+}
+.foto11:hover{
+    background-color: rgba(225, 16, 225, 0.406);
+}
+.name11{
+    width: 100%;
+    height: 10vh;
+}
+.body6{
+    width: 100%;
+    height: 100vh;
+}
+.matthew{
+    width: 100%;
+    height: 40vh;
+   
+   
+   display: flex;
+   align-items: end;
+   justify-content: center;
+}
+.raynor{
+    width: 50%;
+    height: 15vh;
+    text-align: center;
+}
+.jin{   
+   width: 100%;
+   height: 60vh;
+  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.cheong-woo{
+    width: 70%;
+    height: 30vh;
+    border: 2px solid green;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+
+    gap: 5%;
+    
+
+}
+.cheong-woo::-webkit-scrollbar{
+    display: none;
+}
+.pil{
+    width: 47%;
+    height: 25vh;
+    flex-shrink: 0;
+    background-color: rgba(228, 228, 228, 0.078);
+    box-shadow: 0px 0px 4px 1px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iu{
+    width: 85%;
+    height: 17vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ir{
+    width: 35%;
+    height: 17vh;
+  
+}
+.ir img{
+    width: 100%;
+    height: 17vh;
+}
+.an{
+    width: 65%;
+    height: 17vh;
+   
+}
+.at{
+    width: 100%;
+    height: 8vh;
+   
+}
+.at h2{
+    margin-left: 3px;
+}
+.baw{
+    width: 100%;
+    height: 9vh;
+   
+}
+.baw p{
+    font-size: 12px;
+    margin-bottom: 3px;
+    color: rgb(61, 61, 61);
+    margin-left: 3px;
+}
+.body7{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ktk{
+    width: 70%;
+    height: 60vh;
+
+ background-image: linear-gradient(to top right, rgb(33, 102, 221), rgb(53, 99, 226), rgb(117, 68, 200), rgb(152, 24, 232));
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: -300px ;
+}
+.inside{
+    width: 70%;
+    height: 30vh;
+    
+}
+.dem{
+    width: 100%;
+    height: 10vh;
+    
+    text-align: center;
+    color: white;
+}
+.dem h1{
+    font-size: 30px;
+}
+.dem p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.dom{
+    width: 100%;
+    height: 20vh;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rozo{
+    width: 70%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.rozo input{
+    width: 90%;
+    padding: 13px;
+    background-color: rgba(128, 0, 128, 0);
+    outline-style: double;
+    outline-color: white;
+    border-radius: 2px;
+    border: none;
+    
+}
+.zoro{
+    width: 30%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zoro button{
+    padding: 13px;
+    background-color: white;
+    width: 90%;
+}
+.body8{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(232, 232, 232, 0.511);
+}
+.sang-woo{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    align-items: end;
+}
+.geng{
+    width: 100%;
+    height: 25vh;
+    
+    text-align: center;
+    
+}
+.amadiketu{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+}
+.logos{
+    width: 35%;
+    height: 6vh;
+ 
+      display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logos img{
+    height: 3.5vh;  
+}
