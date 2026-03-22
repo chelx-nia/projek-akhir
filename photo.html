@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photobox</title>
+    <link rel="stylesheet" href="photo.css">
+</head>
+<body>
+    <div class="all">
+        <div class="navbar">
+            <p>FotoBox Free Use By Chelxx</p>
+        </div>
+        <div class="bungkus">
+            
+           <div class="isi">
+            <div class="kiri">
+                <div class="judul">
+                    <h2>Smile for the camera | Chesse</h2>
+                </div>
+                 <video src="" id="video" autoplay></video>
+                <div class="take">
+                     <button id="snap">Take photo</button>
+                </div>
+            </div>
+           <div class="kanan">
+            <div class="dalam">
+                 <canvas id="canvas" style="display: none;" ></canvas>
+          
+             <div class="foto" id="photos">
+           
+           </div>
+            </div>
+
+
+            </div>
+           </div>
+        </div>
+
+
+        <script>
+            const video = document.getElementById('video');
+            const snapButton = document.getElementById('snap');
+            const canvas = document.getElementById('canvas');
+            const photoDiv = document.getElementById('photos');
+            const context = canvas.getContext('2d');
+
+
+            navigator.mediaDevices.getUserMedia({video : true})
+            .then(stream => {
+                video.srcObject = stream;
+            })
+            .catch(err =>{
+                console.log('tidak bisa akses kamera',err)
+            })
+
+
+            snapButton.addEventListener('click',()=>{
+                context.drawImage(video, 0, 0, canvas.width, canvas.height);
+                const imgData = canvas.toDataURL('image/png');
+                const img = document.createElement('img');
+                img.src = imgData;
+                photoDiv.appendChild(img);
+            });
+
+
+            canvas.width = 160
+            canvas.height = 155
+        </script>
+        
+    </div>
+
+
+    
+</body>
+</html>
+
+
+

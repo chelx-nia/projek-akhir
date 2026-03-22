@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 13vh;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.bungkus{
+    width: 100%;
+    height: 87vh;
+    background-color: rgb(228, 233, 194);
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.isi{
+    width: 80%;
+    height: 75vh;
+  
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kiri video{
+    width: 90%;
+    height: 50vh;
+   
+}
+.judul{
+    width: 100%;
+    height: 7vh;
+   
+     display: flex;
+    align-items: center;
+    
+}
+.take{
+    width: 100%;
+    height: 7vh;
+   
+     display: flex;
+    align-items: center;
+}
+.take button{
+    padding: 10px;
+    width: 20%;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 9px;
+}
+.take button:hover{
+    background-color: rgb(171, 5, 5);
+    cursor: pointer;
+}
+.kiri{
+    width: 50%;
+    height: 75vh;
+    
+}
+.kanan{
+    width: 50%;
+    height: 61vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.dalam{
+    width: 90%;
+    height: 61vh;
+    
+    
+   
+    
+   
+}
+
+
+.foto{
+     width: 100%;
+    height: 61vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20%;
+    overflow-y: scroll;
+    
+    
+
+
+}
+.foto::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+
+
+
+
+@media(max-width:667px){
+    body{
+        background-color: rgb(228, 233, 194);
+    }
+    .navbar{
+      
+        font-size: 20px;
+        
+    }
+   
+    .isi{
+         flex-wrap: wrap;
+        width: 100%;
+    }
+    .kiri{
+        width: 90%;
+    }
+    .kanan{
+    width: 90%;
+   
+    
+     
+    
+}
+
+
+    .take button{
+        width: 90%;
+        padding: 12px;
+    }
+    .take{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.kiri video{
+    width: 100%;
+}
+    .dalam{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+       
+        
+    }
+   
+    .foto{
+        height: 55vh;
+        display: flex;
+      
+    }
+    .kanan{
+        height: 60vh;
+    }
+    
+    
+}
+

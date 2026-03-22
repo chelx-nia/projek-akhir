@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>top up pulsa</title>
+    <link rel="stylesheet" href="pulsa.css">
+</head>
+<body>
+    
+
+
+   <div class="out">
+     <div class="utama1">
+        <div class="kotak">
+            <div class="top">
+                <div class="bulet">
+
+
+                </div>
+            </div>
+            <div class="bot">
+                <p>welcome</p>
+            </div>
+        </div>
+    </div>
+    <div class="utama">
+         <div class="navbar">
+            <div class="isi">
+                
+                <div class="sim">
+                    <h1>TOP UP PULSA BY CHELXX</h1>
+                </div>
+                <div class="ping">
+                    <p>sign out</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        
+       <div class="atas">
+        <div class="sam">
+            
+            <p>Masukkan nomor hp tujuan:</p>
+        <input type="number" id="phone"  placeholder="Masukkan no hp : cth 0852">
+        <button>Bayar</button>
+        <div id="operatorInfo"></div>
+        </div>
+       </div>
+        
+        
+       <div class="bawahh">
+         <div id="hargaList"></div>
+       </div>
+    </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+            const operatorData = [
+                {
+                name: 'Telkomsel',
+                preFixes: ['0852', '0813', '0821', '0812', '0823', '0822'],
+                harga: [5000,10000,15000,20000,25000,50000,55000,100000]
+            },
+            {
+                name: 'Indosat',
+                preFixes: ['0855', '0856', '0816', '0815'],
+                 harga: [5000,10000,15000,20000,25000,50000,55000,100000]
+            },
+            {
+                name: 'Tri',
+                preFixes: ['0897', '0898', '0896', '0895'],
+              harga: [5000,10000,15000,20000,25000,50000,55000,100000]
+            },
+            {
+                name: 'XL',
+                preFixes: ['0817', '0818', '0819', '0859','0887'],
+                harga: [5000,10000,15000,20000,25000,50000,55000,100000]
+            },
+            {
+                name: 'AXIS',
+                preFixes: ['0838', '0831', '0832', '0833'],
+                 harga: [5000,10000,15000,20000,25000,50000,55000,100000]
+            },
+            {
+                name: 'Smartfren',
+                preFixes: ['0881', '0882', '0883','0889','0888'],
+                harga: [5000,10000,15000,20000,25000,50000,55000,100000]
+            }
+            ];
+
+
+
+
+            
+            const phoneInput = document.getElementById('phone');
+            const operatorInfo = document.getElementById('operatorInfo');
+            const hargaList = document.getElementById('hargaList'); 
+
+
+            phoneInput.addEventListener('input', function(){
+                const nomor = phoneInput.value.trim();
+                const prefix = nomor.slice(0, 4);
+
+
+               let operator = null;
+
+
+                for (let i = 0; i < operatorData.length; i++){
+                    if(operatorData[i].preFixes.includes(prefix)){
+                        operator = operatorData[i];
+                        break;
+                    }
+                }
+
+
+                if(operator){
+                    operatorInfo.innerHTML = "Operator Terdeteksi : " + operator.name;
+                   hargaList.innerHTML = "<div class=harga-container>" +
+                     operator.harga.map(h => `<div class=item>Rp ${h.toLocaleString('id-ID')}</div>`).join('')+"</div>";
+                }else{
+                    operatorInfo.innerText = "Operator Tidak Dikenali.";
+                   hargaList.innerHTML = "";
+                }
+                                
+            });
+        </script>
+    
+</body>
+</html>

@@ -681,13 +681,17 @@ justify-content: space-between;
     border: 2px solid green;
     transition: 0.3s;
 }
-.fot3:hover{
-    background-color: rgba(225, 16, 225, 0.406);
+.foto3 img{
+    width: 100%;
+    height: 35vh;
 }
 .name3{
     width: 100%;
     height: 10vh;
     border: 2px solid hotpink;
+}
+.name3 a{
+    color: black;
 }
 .two5{
     height: 40vh;
@@ -702,29 +706,38 @@ justify-content: space-between;
     border: 2px solid green;
     transition: 0.3s;
 }
-.foto4:hover{
-    background-color: rgba(225, 16, 225, 0.406);
+.foto4 img{
+    width: 100%;
+    height: 30vh;
 }
 .name4{
     width: 100%;
-    height: 10vh;
-    border: 2px solid hotpink;
+    height: 10vh; 
+}
+.name4 a{
+    color: black;
 }
 .three5{
     height: 45vh;
     width: 31%;
-    border: 2px solid red;
 }
 .foto5{
     width: 100%;
     height: 35vh;
-    border: 2px solid green;
+
     transition: 0.3s;
+}
+.foto5 img{
+    width: 100%;
+    height: 35vh;
 }
 .name5{
     width: 100%;
     height: 10vh;
-    border: 2px solid hotpink;
+
+}
+.name5 a{
+    color: black;
 }
 .one6{
     height: 50vh;

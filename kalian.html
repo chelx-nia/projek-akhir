@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perkalian</title>
+    <link rel="stylesheet" href="kalian.css">
+</head>
+<body>
+    <div class="all">
+        <div class="atas">
+            
+            <div class="isi">
+                <div class="si">
+                    <div class="k1">
+                        
+                        <div id="output"></div>
+                        <div id="genap"></div>
+                        <div id="ganjil"></div>
+                    </div>
+                    
+                   
+      
+     
+                </div>
+            </div>
+        </div>
+        <div class="tengah">
+            <div class="inside">
+                
+            </div>
+        </div>
+        <div class="bawah">
+            <div class="in">
+                    
+                    <div class="yes">
+                         <input type="number" id="numberInput" placeholder="Masukan angka">
+        <button onclick="tampilkanAngka()">Tampilkan</button>
+                    </div>
+                
+            </div>
+        </div>
+       
+       
+
+
+       
+        
+   
+    </div>
+
+
+    <script>
+        function tampilkanAngka(){
+            let angka = document.getElementById("numberInput").value;
+            let output = document.getElementById('output');
+            let genap = document.getElementById('genap');
+            let ganjil = document.getElementById('ganjil');
+
+
+            
+
+
+            // FOR LOOP - untuk menampilkan angka 1 sampai number input
+            output.innerHTML += "<strong>Angka 1 sampai " + angka + ":</strong>";
+            for(let i = 1; i <= angka; i++){
+                output.innerHTML += i + " ";
+            }
+            
+          
+
+
+            output.innerHTML += "<strong> Angka genap " + angka + ":</strong>";
+            for(let i = 1; i <= angka; i++){
+                if(i % 2 === 0)
+                output.innerHTML += i + " ";
+            }
+
+
+             
+
+
+            output.innerHTML += "<strong> Angka ganjil " + angka + ":</strong>";
+            for(let i = 1; i <= angka; i++){
+                if(i % 2 === 1)
+                output.innerHTML += i + " ";
+            }
+        }
+    </script>
+</body>
+</html>
