@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="geser.css">
+</head>
+<body>
+    <div class="full">
+        <div class="atas">
+            <div class="isi">
+                <div class="kir">
+                    <h3>Store.app</h3>
+                </div>
+                <div class="kan">
+                    <h3>Home</h3>
+                    <h3>Product</h3>
+                    <h3>Gallery</h3>
+                </div>
+            </div>
+        </div>
+        <div class="bawah">
+            <div id="carousel">
+                <button id="prev">⏮</button>
+
+
+             <div id="carousel-bks" >
+                    <img src="img/bleach.png" alt="banner 1" class="slide">
+                    <img src="img/bleach1.png" alt="banner 2" class="slide">
+                    <img src="img/bleach2.png" alt="banner 3" class="slide">
+            </div>
+
+
+                <button id="next">⏭</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        const slide = document.querySelectorAll('.slide');
+        const bks = document.getElementById('carousel-bks');
+        const nextBtn = document.getElementById('next')
+        const prevBtn = document.getElementById('prev')
+
+
+        let currentIndex = 0;
+
+
+        function showSlide(index){
+            bks.style.transform = `translateX(-${index * 100}%)`
+        }
+
+
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex +  1) % slide.length;
+            showSlide(currentIndex);
+
+
+        });
+
+
+        prevBtn.addEventListener('click', () =>{
+            currentIndex = (currentIndex - 1 + slide.length) % slide.length;
+            showSlide(currentIndex);
+        });
+    </script>
+</body>
+</html>

@@ -696,7 +696,6 @@ justify-content: space-between;
 .two5{
     height: 40vh;
     width: 31%;
-    border: 2px solid red;
 }
 .foto4{
     width: 100%;
@@ -750,10 +749,17 @@ justify-content: space-between;
     border: 2px solid green;
     transition: 0.3s;
 }
+.foto6 img{
+    width: 100%;
+    height: 40vh;
+}
 .name6{
     width: 100%;
     height: 10vh;
     border: 2px solid hotpink;
+}
+.name6 a{
+    color: black;
 }
 .two6{
     height: 45vh;
@@ -766,10 +772,17 @@ justify-content: space-between;
     border: 2px solid green;
     transition: 0.3s;
 }
+.foto7 img{
+    width: 100%;
+    height: 35vh;
+}
 .name7{
     width: 100%;
     height: 10vh;
     border: 2px solid hotpink;
+}
+.name7 a{
+    color: black;
 }
 .three6{
     height: 40vh;
@@ -782,10 +795,17 @@ justify-content: space-between;
     border: 2px solid green;
     transition: 0.3s;
 }
+.foto8 img{
+    width: 100%;
+    height: 30vh;
+}
 .name8{
     width: 100%;
     height: 10vh;
     border: 2px solid hotpink;
+}
+.name8 a{
+    color: black;
 }
 .body-lima{
     width: 100%;
@@ -818,13 +838,17 @@ justify-content: space-between;
     border: 2px solid green;
     transition: 0.3s;
 }
-.foto9:hover{
-    background-color: rgba(225, 16, 225, 0.406);
+.foto9 img{
+    width: 100%;
+    height: 30vh;
 }
 .name9{
     width: 100%;
     height: 10vh;
     border: 2px solid hotpink;
+}
+.name9 a{
+    color: black;
 }
 .two7{
     height: 45vh;
@@ -834,20 +858,20 @@ justify-content: space-between;
 .foto10{
     width: 100%;
     height: 35vh;
-
-
-
-
     border: 2px solid green;
     transition: 0.3s;
 }
-.foto10:hover{
-    background-color: rgba(225, 16, 225, 0.406);
+.foto10 img{
+    width: 100%;
+    height: 35vh;
 }
-.name9{
+.name10{
     width: 100%;
     height: 10vh;
     border: 2px solid hotpink;
+}
+.name10 a{
+    color: black;
 }
 .three7{
     height: 42vh;
@@ -857,19 +881,19 @@ justify-content: space-between;
 .foto11{
     width: 100%;
     height: 32vh;
-
-
-
-
     border: 2px solid green;
     transition: 0.3s;
 }
-.foto11:hover{
-    background-color: rgba(225, 16, 225, 0.406);
+.foto11 img{
+    width: 100%;
+    height: 32vh;
 }
 .name11{
     width: 100%;
     height: 10vh;
+}
+.name11 a{
+    color: black;
 }
 .body6{
     width: 100%;

@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.full{
+    width: 100%;
+    height: 100vh;
+}
+.atas{
+    width: 100%;
+    height: 10vh;
+    background-color: maroon;
+    display: flex;
+    justify-content: center;
+}
+.isi{
+    width: 95%;
+    height: 10vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kir{
+    width: 75%;
+    height: 10vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 18px;
+    color: white;
+}
+.kan{
+    width: 25%;
+    height: 10vh;
+    
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.bawah{
+    width: 100%;
+    height: 90vh;
+    
+}
+#carousel{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    
+}
+#carousel-bks{
+    
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.slide{
+   min-width: 100%;
+   height: 90vh;
+   object-fit: cover;
+}
+
+
+#prev{
+    left: 10px;
+     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    color: black;
+    font-size: 2rem;
+    padding: 10px;
+    width: 5%;
+    cursor: pointer;
+    z-index: 99;
+    border-radius: 50px;
+}
+#next{
+    right: 10px;
+     position: absolute;
+    top: 50%;
+      border-radius: 50px;
+    transform: translateY(-50%);
+    border: none;
+    color: black;
+    font-size: 2rem;
+   padding: 10px;
+    width: 5%;
+    cursor: pointer;
+    z-index: 99;
+}
+
+
+
+
+@media(max-width:667px){
+    .full{
+        
+        width: 100%;
+        height: 100vh;
+        border: 2px solid red;
+    }
+    #next, #prev{
+        width: 13%;
+        padding: 5px;
+        border-radius: 50px;
+    }
+    .atas{
+        height: 10vh;
+    }
+    .bawah{
+        height: 80vh;
+    }
+    #carousel{
+        width: 100%;
+        height: 90vh;
+    }
+    .kir{
+        font-size: 15px;
+        width: 30%;
+        border: 2px solid khaki;
+    }
+    .kan{
+        font-size: 15px;
+        width: 70%;
+        border: 2px solid khaki;
+    }
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>suhu</title>
+    <link rel="stylesheet" href="suhu.css">
+   
+</head>
+<body>
+    <div class="utama">
+        <div class="kotak">
+             <div class="kotak-dpn">
+                  <h1>function operator</h1>
+        <p>masukkan nilai suhu</p>
+        <input id="s1" type="number" style="width: 40%; padding: 6px;"><br><br>
+        <p>dari</p>
+        <select name="" id="awalan" style="width: 40%; padding: 6px;"><br><br>
+            <option value="celcius">celcius</option>
+             <option value="reamur">reamur</option>
+             <option value="fahrenheit">fahrenheit</option>
+            <option value="kelvin">kelvin</option>
+        </select><br><br>
+        <p>ubah ke</p>
+        <select name="" id="ke" style="width: 40%; padding: 6px;">
+            <option value="celcius">celcius</option>
+            <option value="reamur">reamur</option>
+            <option value="fahrenheit">fahrenheit</option>
+            <option value="kelvin">kelvin</option>
+        
+        </select><br><br>
+        <p>hasil : <span id="hasil"></span></p>
+        <button onclick=btn() style="width: 40%; padding: 6px; background-color: rgb(109, 138, 235); border: none;" >Hitung</button><br>
+        <script>
+            function btn() { 
+             let suhu = parseFloat(document.getElementById("s1").value);
+             let awalan = document.getElementById("awalan").value;
+             let ke = document.getElementById("ke").value;
+            
+            if(awalan === "celcius"){
+             if(ke === "kelvin"){
+                let jumlah = suhu + 273
+                document.getElementById('hasil').innerHTML = jumlah;
+             }else if (ke === 'fahrenheit'){
+                 let jumlah =  (9/5) * suhu + 32
+                 document.getElementById('hasil').innerHTML = jumlah;
+             }else if (ke === 'reamur'){
+                 let jumlah = (4/5) * suhu
+                 document.getElementById('hasil').innerHTML = jumlah;
+             }else{
+                 let jumlah = suhu
+                 document.getElementById('hasil').innerHTML = jumlah;
+             }
+            }
+
+
+            if(awalan === 'reamur'){
+                if(ke === 'celcius'){
+                let jumlah = (5/4) * suhu
+                document.getElementById('hasil').innerHTML = jumlah;
+             }else if (ke === 'kelvin'){
+                 let jumlah = (5/4) * suhu + 273
+                 document.getElementById('hasil').innerHTML = jumlah;
+             }else if (ke === 'fahrenheit'){
+                 let jumlah = (9/5) * suhu + 32
+                 document.getElementById('hasil').innerHTML = jumlah;
+             }else{
+                 let jumlah = suhu
+                 document.getElementById('hasil').innerHTML = jumlah;
+             }
+            }
+
+
+            if(awalan === 'fahrenheit'){
+                if(ke === 'celcius'){
+                let jumlah = (5/9) * (suhu - 32)
+                document.getElementById('hasil').innerHTML = jumlah;
+             }else if (ke === 'kelvin'){
+                 let jumlah = (5/9) * (suhu - 32) + 273
+                 document.getElementById('hasil').innerHTML = jumlah;
+             }else if (ke === 'reamur'){
+                 let jumlah = (4/5) * (suhu - 32)
+                 document.getElementById('hasil').innerHTML = jumlah;
+             }else{
+                 let jumlah = suhu
+                 document.getElementById('hasil').innerHTML = jumlah;
+             }
+            }
+
+
+            if(awalan === 'kelvin'){
+                if(ke === 'celcius'){
+                let jumlah = suhu - 273
+                document.getElementById('hasil').innerHTML = jumlah;
+             }else if (ke === 'fahrenheit'){
+                 let jumlah = (9/5) * (suhu - 273) + 32
+                 document.getElementById('hasil').innerHTML = jumlah;
+             }else if (ke === 'reamur'){
+                 let jumlah = (4/5) * (suhu - 273)
+                 document.getElementById('hasil').innerHTML = jumlah;
+             }else{
+                 let jumlah = suhu
+                 document.getElementById('hasil').innerHTML = jumlah;
+             }
+            }
+            }
+             </script>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
+

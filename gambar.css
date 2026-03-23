@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hi{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(205, 205, 205);
+  
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.atas canvas{
+    background-color: white;
+    cursor: pointer;
+   
+}
+.wow{
+    width: 80%;
+    height: 85vh;
+    background-color: gold;
+    border-radius: 10px;
+    border: 3px solid white;
+   
+}
+.toolbox{
+    background-color: rgb(97, 97, 97);
+    width: 24%;
+    height: 7vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    color: white;
+}
+.toolbox input{
+    background-color: rgb(221, 221, 221);
+    cursor: alias;
+    border-radius: 5px;
+    border: none;
+}
+.toolbox button{
+    padding: 6px;
+    width: 15%;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: grab;
+}
+.toolbox button:hover{
+    background-color: black;
+    color: white;
+    cursor: grabbing;
+}
+.atas{
+    width: 100%;
+    height: 73vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.bawah{
+    width: 100%;
+    height: 12vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+
+
+
+@media (max-width:667px){
+    .atas canvas{
+        width: 95%;
+        height: 70vh;
+    }
+    .bawah h2{
+        display: none;
+    }
+    .toolbox{
+        width: 80%;
+    }
+    .toolbox button{
+        padding: 5.5px;
+    }
+    .navbar h1{
+        font-size: 25px;
+    }
+}

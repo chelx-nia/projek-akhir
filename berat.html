@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="berat.css">
+  
+    <title>Konversi berat</title>
+</head>
+<body style="background-color: #BDAAAA;">
+    <div class="utama">
+        <div class="tengah">
+            <div class="atas">
+                <h2>KONVERSI SATUAN BERAT BY CHELSEA 8D</h2>
+            </div>
+            <div class="bawah">
+                <div class="kiri">
+                       <div class="lapisan">
+                            <div class="angka">
+                                <h3>masukkan angka</h3>
+                                <input type="number" id="ang1" placeholder="masukkan angka">
+                            </div>
+    <div class="awal">
+        <h3>Masukkan satuan awal</h3>
+        <select name="" id="awal">
+        <option value="kg">kilogram</option>
+        <option value="hg">hektogram</option>
+        <option value="dk">dekagram</option>
+        <option value="g">gram</option>
+        <option value="dg">decigram</option>
+        <option value="cg">centigram</option>
+        <option value="mg">miligram</option>
+        </select>
+    </div>
+    <div class="akhir">
+        <h3>Masukkan satuan awal</h3>
+        <select name="" id="tujuan">
+        <option value="kg">kilogram</option>
+        <option value="hg">hektogram</option>
+        <option value="dk">dekagram</option>
+        <option value="g">gram</option>
+        <option value="dg">decigram</option>
+        <option value="cg">centigram</option>
+        <option value="mg">miligram</option>
+        </select>
+    </div>
+    
+   
+       <div class="btn">
+         <button onclick="hitung()">Hitung</button><br>
+       </div>
+       
+    
+    <script>
+        function hitung(){
+            let angka1 = parseFloat(document.getElementById('ang1').value)
+            let awal = document.getElementById("awal").value;
+            let tujuan = document.getElementById("tujuan").value;
+
+
+            if(awal === "kg"){
+                if(tujuan === "hg"){
+                    let jumlah = angka1 * 10;
+                    text = ' hektogram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }else if(tujuan === "dk"){
+                    let jumlah = angka1 * 100;
+                    text = ' dekagram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }else if(tujuan === "g"){
+                    let jumlah = angka1 * 1000;
+                    text = ' gram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }else if(tujuan === "dg"){
+                    let jumlah = angka1 * 10000;
+                    text = ' decigram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }else if(tujuan === "cg"){
+                    let jumlah = angka1 * 100000;
+                    text = ' centigram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }else if(tujuan === "mg"){
+                    let jumlah = angka1 * 1000000;
+                    text = ' miligram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }else{
+                    let jumlah = angka1
+                    text = ' kilogram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }
+            }
+            if(awal === "hg"){
+                if(tujuan === "kg"){
+                    let jumlah1 = angka1 / 10;
+                    text = ' kilogram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "dk"){
+                    let jumlah1 = angka1 * 10;
+                    text = ' dekagram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "g"){
+                    let jumlah1 = angka1 * 100;
+                    text = ' gram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "dg"){
+                    let jumlah1 = angka1 * 1000;
+                    text = ' decigram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "cg"){
+                    let jumlah1 = angka1 * 10000;
+                    text = ' centigram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "mg"){
+                    let jumlah1 = angka1 * 100000;
+                    text = ' miligram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else{
+                    let jumlah1 = angka1
+                    text = ' hektogram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }
+            }
+            if(awal === "dk"){
+                if(tujuan === "kg"){
+                    let jumlah1 = angka1 / 100;
+                    text = ' kilogram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "hg"){
+                    let jumlah1 = angka1 / 10;
+                    text = ' hektogram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "g"){
+                    let jumlah1 = angka1 * 10;
+                    text = ' gram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "dg"){
+                    let jumlah1 = angka1 * 100;
+                    text = ' decigram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "cg"){
+                    let jumlah1 = angka1 * 1000;
+                    text = ' centigram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "mg"){
+                    let jumlah1 = angka1 * 10000;
+                    text = ' miligram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else{
+                    let jumlah1 = angka1
+                    text = ' dekagram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }
+            }
+            if(awal === "g"){
+                if(tujuan === "kg"){
+                    let jumlah1 = angka1 / 1000;
+                    text = ' kilogram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "hg"){
+                    let jumlah1 = angka1 / 100;
+                    text = ' hektogram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "dk"){
+                    let jumlah1 = angka1 / 10;
+                    text = ' dekagram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "dg"){
+                    let jumlah1 = angka1 * 10;
+                    text = ' decigram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "cg"){
+                    let jumlah1 = angka1 * 100;
+                    text = ' centigram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "mg"){
+                    let jumlah1 = angka1 * 1000;
+                    text = ' miligram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else{
+                    let jumlah1 = angka1
+                    text = ' gram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }
+            }
+            if(awal === "dg"){
+                if(tujuan === "kg"){
+                    let jumlah1 = angka1 / 10000;
+                    text = ' kilogram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "hg"){
+                    let jumlah1 = angka1 / 1000;
+                    text = ' hektogram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "dk"){
+                    let jumlah1 = angka1 / 100;
+                    text = ' dekagram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "g"){
+                    let jumlah1 = angka1 / 10;
+                    text = ' gram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "cg"){
+                    let jumlah1 = angka1 * 10;
+                    text = ' centigram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "mg"){
+                    let jumlah1 = angka1 * 100;
+                    text = ' miligram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else{
+                    let jumlah1 = angka1
+                    text = ' decigram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }
+            }
+             if(awal === "cg"){
+                if(tujuan === "kg"){
+                    let jumlah1 = angka1 / 100000;
+                    text = ' kilogram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "hg"){
+                    let jumlah1 = angka1 / 10000;
+                    text = ' hektogram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "dk"){
+                    let jumlah1 = angka1 / 1000;
+                    text = ' dekagram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "g"){
+                    let jumlah1 = angka1 / 100;
+                    text = ' gram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "dg"){
+                    let jumlah1 = angka1 / 10;
+                    text = ' decigram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else if(tujuan === "mg"){
+                    let jumlah1 = angka1 * 10;
+                    text = ' miligram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }else{
+                    let jumlah1 = angka1
+                    text = ' centigram'
+                    document.getElementById('hasil').innerHTML = jumlah1 + text;
+                }
+            }
+            if(awal === "mg"){
+                if(tujuan === "kg"){
+                    let jumlah = angka1 / 1000000;
+                    text = ' kilogram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }else if(tujuan === "hg"){
+                    let jumlah = angka1 / 100000;
+                    text = ' hektogram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }else if(tujuan === "dk"){
+                    let jumlah = angka1 / 10000;
+                    text = ' dekagram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }else if(tujuan === "g"){
+                    let jumlah = angka1 / 1000;
+                    text = ' gram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }else if(tujuan === "dg"){
+                    let jumlah = angka1 / 100;
+                    text = ' decigram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }else if(tujuan === "cg"){
+                    let jumlah = angka1 / 10;
+                    text = ' centigram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }else{
+                    let jumlah = angka1
+                    text = ' miligram'
+                    document.getElementById('hasil').innerHTML = jumlah + text;
+                }
+            }
+        }
+    </script>
+            </div>
+                </div>
+                <div class="kanan">
+                   
+                    <div class="lap">
+                        <div class="top">
+                            <h3>Hasil konversi</h3>
+                        </div>
+                        <div class="bottom">
+                            <h1><span id="hasil"></span></h1>
+                        </div>
+                    </div>
+                    
+                     
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
