@@ -188,7 +188,7 @@ cursor: pointer;
     width: 100%;
     height: 15vh;
 
-    font-size: 18px;
+    font-size: 16px;
 }
 .quardo{
     width: 100%;
@@ -924,7 +924,6 @@ justify-content: space-between;
 .cheong-woo{
     width: 70%;
     height: 30vh;
-    border: 2px solid green;
     overflow-x: scroll;
     display: flex;
     align-items: center;
@@ -1098,4 +1097,299 @@ justify-content: space-between;
 }
 .logos img{
     height: 3.5vh;  
+}
+
+@media (max-width:667px) {
+    .body{
+        width: 100%;
+        height: 100vh;        
+    }
+    .navbar{
+        height: 10vh;
+        width: 100%;
+    }
+    .isi{
+        width: 95%;
+    }
+    .kiri{
+        width: 30%;
+        font-size: 10px;
+    }
+    .kanan{
+        width: 70%;
+        font-size: 8.5px;
+    }
+    .tengah{
+        width: 90%;
+        height: 75vh;
+        flex-wrap: wrap;
+    }
+    .kiri1{
+        width: 100%;
+        height: 35vh;
+    }
+    .kanan1{
+        width: 100%;
+        height: 40vh;
+   }
+    .kanan1 img{
+        width: 100%;
+        height: 40vh;
+    }
+    .satu{
+        width: 100%;
+        height: 5vh;
+        font-size: 12px;
+    }
+    .dua{
+        width: 100%;
+        height: 20vh;
+    }
+    .dua h1{
+        font-size: 30px;
+    }
+    .tiga{
+        width: 100%;
+        height: 5vh;
+        font-size: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .in{
+        width: 60%;
+        height: 6vh;
+        font-size: 8px;
+    }
+    .ichi{
+        width: 45%;
+        height: 5vh;
+        font-size: 10px;
+    }
+    .ni{
+        width: 45%;
+        height: 5vh;
+        font-size: 10px;
+    }
+    .body1{
+        width: 100%;
+       height: 100vh;
+       display: flex;
+         align-items: center;
+            justify-content: center;
+    }
+    .inside{
+        width: 95%;
+        height: 80vh;
+    }
+    .bodyONE{
+        width: 100%;
+        height: 80vh;
+        flex-wrap: wrap;
+        margin-top: -170px;
+    }
+    .uno{
+        width: 100%;
+        height: 40vh;
+    }
+    .uno img{
+        width: 100%;
+        height: 40vh;
+    }
+    .border{
+        width: 100%;
+        height: 40vh;
+    }
+    .dos{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+    }
+    .tres{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+    }
+    .quardo{
+        width: 100%;
+        height: 25vh;
+        font-size: 16px;
+    }
+    .sinkro{
+        width: 100%;
+        height: 10vh;
+    }
+    .body2{
+        width: 100%;
+        height: 100vh;
+    }
+    .san{
+        width: 95%;
+        height: 90vh;
+        flex-wrap: wrap;
+    }
+    .i{
+        width: 100%;
+        height: 45vh;
+        
+        
+        
+    }
+    .SATU, .DUA, .TIGA{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 11px;
+    }
+    .ONE, .TWO, .THREE, .four, .five, .six, .seven, .eight, .nine{
+        width: 32%;
+        height: 12vh;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+    }
+    .er{
+        width: 100%;
+        height: 45vh;
+    }
+    .se{
+        width: 100%;
+        height: 45vh;
+    }
+    .atas{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .l{
+        width: 40%;
+        height: 20vh;
+        font-size: 40px;
+    }
+    .r{
+        width: 60%;
+        height: 20vh;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tenga{
+        width: 100%;
+        height: 5vh;
+    }
+    .bawa{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .body7{
+        width: 100%;
+        height: 50vh;
+    }
+    .ktk{
+        width: 95%;
+        height: 50vh;
+        margin-bottom: -300px;
+    }
+    .inside{
+        width: 95%;
+        height: 25vh;
+    }
+    .dem{
+        width: 100%;
+        height: 15vh;
+    }
+    .dem h1{
+        font-size: 20px;
+    }
+    .dom{
+        width: 100%;
+        height: 10vh;
+    }
+    .rozo{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rozo input{
+        width: 75%;
+        padding: 21px;
+        background-color: rgba(128, 0, 128, 0);
+        outline-style: double;
+        outline-color: white;
+        border-radius: 2px;
+        border: none;
+    }
+    .zoro{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .zoro button{
+        padding: 14px;
+        background-color: white;
+        width: 95%;
+        border: none;
+        border-radius: 1px;
+    }
+    .body6{
+        width: 100%;
+        height: 100vh;
+    }
+    .matthew{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+    .raynor{
+        width: 100%;
+        height: 10vh;
+        text-align: center;
+        font-size: 12px;
+    }
+    .jin{
+        width: 100%;
+        height: 40vh;
+    }
+    .cheong-woo{
+        width: 95%;
+        height: 30vh;
+    }
+    .pil{
+        width: 100%;
+        height: 25vh;
+    }
+    .an{
+        width: 65%;
+        height: 17vh;
+    }
+    .at{
+        width: 100%;
+        height: 8vh;
+       
+       
+       
+    }
+    .baw{
+        width: 100%;
+        height: 10vh;
+    }
+     .baw p{
+        font-size: 10px;
+    }
 }
