@@ -105,7 +105,6 @@
         
         width: 100%;
         height: 100vh;
-        border: 2px solid red;
     }
     #next, #prev{
         width: 13%;
@@ -125,11 +124,9 @@
     .kir{
         font-size: 15px;
         width: 30%;
-        border: 2px solid khaki;
     }
     .kan{
         font-size: 15px;
         width: 70%;
-        border: 2px solid khaki;
     }
 }
