@@ -662,9 +662,8 @@ justify-content: space-between;
 .eak5{
     width: 70%;
     height: 100vh;
-    border: 2px solid green;
 }
-.kop{
+.kop1{
     width: 100%;
     height: 50vh;
     display: flex;
@@ -681,13 +680,10 @@ justify-content: space-between;
 .one5{
     height: 45vh;
     width: 31%;
-    border: 2px solid red;
 }
 .foto3{
     width: 100%;
     height: 35vh;
-
-    border: 2px solid green;
     transition: 0.3s;
 }
 .foto3 img{
@@ -697,7 +693,6 @@ justify-content: space-between;
 .name3{
     width: 100%;
     height: 10vh;
-    border: 2px solid hotpink;
 }
 .name3 a{
     color: black;
@@ -709,9 +704,6 @@ justify-content: space-between;
 .foto4{
     width: 100%;
     height: 30vh;
-
-
-    border: 2px solid green;
     transition: 0.3s;
 }
 .foto4 img{
@@ -732,7 +724,6 @@ justify-content: space-between;
 .foto5{
     width: 100%;
     height: 35vh;
-
     transition: 0.3s;
 }
 .foto5 img{
@@ -742,7 +733,6 @@ justify-content: space-between;
 .name5{
     width: 100%;
     height: 10vh;
-
 }
 .name5 a{
     color: black;
@@ -750,12 +740,10 @@ justify-content: space-between;
 .one6{
     height: 50vh;
     width: 31%;
-    border: 2px solid red;
 }
 .foto6{
     width: 100%;
     height: 40vh;
-    border: 2px solid green;
     transition: 0.3s;
 }
 .foto6 img{
@@ -765,7 +753,6 @@ justify-content: space-between;
 .name6{
     width: 100%;
     height: 10vh;
-    border: 2px solid hotpink;
 }
 .name6 a{
     color: black;
@@ -773,12 +760,10 @@ justify-content: space-between;
 .two6{
     height: 45vh;
     width: 31%;
-    border: 2px solid red;
 }
 .foto7{
     width: 100%;
     height: 35vh;
-    border: 2px solid green;
     transition: 0.3s;
 }
 .foto7 img{
@@ -788,7 +773,6 @@ justify-content: space-between;
 .name7{
     width: 100%;
     height: 10vh;
-    border: 2px solid hotpink;
 }
 .name7 a{
     color: black;
@@ -796,12 +780,10 @@ justify-content: space-between;
 .three6{
     height: 40vh;
     width: 31%;
-    border: 2px solid red;
 }
 .foto8{
     width: 100%;
     height: 30vh;
-    border: 2px solid green;
     transition: 0.3s;
 }
 .foto8 img{
@@ -811,7 +793,6 @@ justify-content: space-between;
 .name8{
     width: 100%;
     height: 10vh;
-    border: 2px solid hotpink;
 }
 .name8 a{
     color: black;
@@ -829,7 +810,6 @@ justify-content: space-between;
 .kop{
     width: 100%;
     height: 50vh;
-    border: 2px solid rgb(80, 113, 214);
     display: flex;
     align-items: end;
     justify-content: space-between;
@@ -837,14 +817,10 @@ justify-content: space-between;
 .one7{
     height: 40vh;
     width: 31%;
-    border: 2px solid red;
 }
 .foto9{
     width: 100%;
     height: 30vh;
-
-
-    border: 2px solid green;
     transition: 0.3s;
 }
 .foto9 img{
@@ -854,7 +830,6 @@ justify-content: space-between;
 .name9{
     width: 100%;
     height: 10vh;
-    border: 2px solid hotpink;
 }
 .name9 a{
     color: black;
@@ -862,12 +837,10 @@ justify-content: space-between;
 .two7{
     height: 45vh;
     width: 31%;
-    border: 2px solid red;
 }
 .foto10{
     width: 100%;
     height: 35vh;
-    border: 2px solid green;
     transition: 0.3s;
 }
 .foto10 img{
@@ -877,7 +850,6 @@ justify-content: space-between;
 .name10{
     width: 100%;
     height: 10vh;
-    border: 2px solid hotpink;
 }
 .name10 a{
     color: black;
@@ -885,12 +857,10 @@ justify-content: space-between;
 .three7{
     height: 42vh;
     width: 31%;
-    border: 2px solid red;
 }
 .foto11{
     width: 100%;
     height: 32vh;
-    border: 2px solid green;
     transition: 0.3s;
 }
 .foto11 img{
@@ -1488,7 +1458,6 @@ justify-content: space-between;
     .body4{
         width: 100%;
         height: 155vh;
-        border: 2px solid red;
     }
     .eak4{
         width: 90%;
@@ -1572,4 +1541,73 @@ justify-content: space-between;
     .geng p{
         font-size: 15px;
     }
+    .body5{
+        width: 100%;
+        height: 275vh;
+    }
+    .eak5{
+        width: 90%;
+        height: 275vh;
+        flex-wrap: wrap;
+    }
+    .kop1{
+        width: 100%;
+        height: 135vh;
+        flex-wrap: wrap;
+    }
+    .one5{
+        width: 100%;
+        height: 45vh;
+    }
+    .two5{
+        width: 100%;
+        height: 40vh;
+    }
+    .three5{
+        width: 100%;
+        height: 45vh;
+    }
+    .jop{
+        width: 100%;
+        height: 140vh;
+        flex-wrap: wrap;
+    }
+    .one6{
+        width: 100%;
+        height: 50vh;
+    }
+    .two6{
+        width: 100%;
+        height: 45vh;
+    }
+    .three6{
+        width: 100%;
+        height: 40vh;
+    }
+    .body-lima{
+        width: 100%;
+        height: 130vh;
+    }
+    .eak9{
+        width: 90%;
+        height: 130vh;
+    }
+    .kop{
+        width: 100%;
+        height: 130vh;
+        flex-wrap: wrap;
+    }
+    .one7{
+        width: 100%;
+        height: 40vh;
+    }
+    .two7{
+        width: 100%;
+        height: 45vh;
+    }
+    .three7{
+        width: 100%;
+        height: 42vh;
+    }
+   
 }
